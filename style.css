@@ -26,9 +26,7 @@ body {
 
 
 
-.main-content{
-    
-}   
+  
 .header{
     display:grid;
     grid-template-rows:1fr 1fr;
@@ -57,7 +55,7 @@ body {
     background: #000;
   
   
-  height: 300px;
+  min-height: 12rem;
   border-radius: 10px;
 }
 .nav-top,
@@ -65,12 +63,15 @@ body {
     display:grid;
     gap:15px;
 }
+
+
 .announcements{
     background:rgb(90, 15, 15);
-    min-height:250px;
+    min-height:11rem;
 }
 
 .trending{
     background:#b42420;
-    min-height:250px;
+    min-height:11rem;
+
 }
